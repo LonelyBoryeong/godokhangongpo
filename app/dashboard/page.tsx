@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
-import ResponsiveGauge from "./components/ResponsiveGauge";
-import LineChart from "./components/LineChart";
+import Gauge from "../components/ResponsiveGauge";
+import LineChart from "../components/LineChart";
+import ResponsiveGauge from "../components/ResponsiveGauge";
 
 const getDates = (startDate, endDate) => {
   let dates = [];
@@ -118,8 +119,8 @@ export default function Dashboard() {
       </div>
 
       <div className="col-start-2 row-span-2 pl-5 border-l border-gray-300">
-        <h2 className="text-xl font-semibold mb-4">포트폴리오 추천</h2>
-        <p>준비 중입니다...</p>
+        <h2 className="text-xl font-semibold mb-4">Market Analysis</h2>
+        <p>여기에 시장 분석 내용을 작성하세요...</p>
       </div>
     </div>
   );
